@@ -3,6 +3,8 @@ import Header from './component/common/Header';
 import Home from './component/Home';
 import UserData from './component/UserData';
 import Adduser from './component/Adduser';
+import RenewPlan from './component/RenewPlan';
+import UpgradePlan from './component/UpgradePlan';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/userdata" element={<UserData />} />
           <Route path="/adduser" element={<Adduser />} />
+          <Route path="/renew_plan/:id" element={<RenewPlan />} />
+          <Route path="/upgrade_plan/:id" element={<UpgradePlan />} />
         </Routes>
       </div>
     </div>

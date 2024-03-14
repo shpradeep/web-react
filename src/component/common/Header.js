@@ -11,7 +11,7 @@ function Header() {
                             <h5>User Section</h5>
                             <ul className="navbar-nav">
                                 <li className="nav-item" ><Link to="/" className="nav-link">Home</Link></li>
-                                <li className="nav-item" ><Link to="/userdata" className="nav-link">User Data List</Link></li>
+                                <li className="nav-item" ><Link to="/userdata" className="nav-link">Customers</Link></li>
                             </ul>
                         </div>
                     </div>
